@@ -1,0 +1,19 @@
+.add-friend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: peachpuff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.my-input {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+}
+
+button {
+  margin-left: auto;
+  width: 169px;
+}

@@ -1,7 +1,7 @@
 import "./RightContainer.css";
 
-function RightContainer() {
-  return <div className="right-container"></div>;
+function RightContainer({ children }) {
+  return <div className="right-container">{children}</div>;
 }
 
 export default RightContainer;

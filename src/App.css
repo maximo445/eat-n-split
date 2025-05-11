@@ -14,3 +14,9 @@
   grid-template-columns: 2fr 3fr;
   background: green;
 }
+
+.friends-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

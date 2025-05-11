@@ -1,3 +1,7 @@
 .left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   background: palevioletred;
+  padding: 30px;
 }
