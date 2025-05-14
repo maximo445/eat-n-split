@@ -1,0 +1,23 @@
+.bill-spliter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: peachpuff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.my-input {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+}
+
+.my-input input {
+  border: none;
+}
+
+button {
+  margin-left: auto;
+  width: 169px;
+}

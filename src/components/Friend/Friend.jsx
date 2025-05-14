@@ -1,9 +1,9 @@
 import Button from "../Button/Button";
 import "./Friend.css";
 
-function Friend({ data }) {
+function Friend({ data, isCurrent, onDeselectFriend, onSetCurrentFriend }) {
   return (
-    <li className="friend">
+    <li className={`friend ${isCurrent ? "current-friend" : ""}`}>
       <div className="info">
         <img src={data.url} alt="head-shot" />
         <span>
@@ -21,7 +21,11 @@ function Friend({ data }) {
           </p>
         </span>
       </div>
-      <Button>Select</Button>
+      {isCurrent ? (
+        <Button click={onDeselectFriend}>Close</Button>
+      ) : (
+        <Button click={() => onSetCurrentFriend(data.id)}>Select</Button>
+      )}
     </li>
   );
 }

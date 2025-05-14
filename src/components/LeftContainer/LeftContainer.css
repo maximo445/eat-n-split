@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  background: palevioletred;
+  /* background: palevioletred; */
   padding: 30px;
 }
